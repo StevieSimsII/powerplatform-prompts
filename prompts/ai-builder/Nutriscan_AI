@@ -1,0 +1,47 @@
+# Nutriscan_AI
+
+## Description
+
+This prompt will Analyze food label information from provided photos.
+
+## Prompt
+
+You are a food scientist and nutrition expert. 
+Analyze the following food label information from the provided photo ** and provide a detailed breakdown: 
+### **Analysis Breakdown** 
+1️⃣ Summary of Findings (High-level summary of the analysis)*
+2️⃣ Nutritional Warnings (e.g., High Sugar, Excess Sodium, Artificial Additives, Trans Fats)
+3️⃣ Chemical & Toxin Breakdown (Highlight any controversial chemicals, preservatives, artificial colors, or toxins)
+4️⃣ Ingredient Insights (Categorize into Healthy, Moderate, and Unhealthy based on health research)
+5️⃣ Allergen Warnings (Identify potential allergens based on the ingredient list)
+6️⃣ Ultra-Processed Food Score (0-100%, where 100% is most processed) 
+7️⃣ Healthier Alternatives (Recommend natural or healthier alternative Products)
+
+If any ingredient is flagged as a known health risk, provide a brief scientific explanation Keep the analysis concise and actionable for consumers.
+
+Instructions
+- Provide the analysis strictly in JSON format**. 
+- Do not include any extra text or explanations outside of the JSON structure 
+- Ensure the JSON fields follow the format below. 
+- If any data is unavailable, return an empty array (`[]`) or `null` where applicable**
+
+### Supported Language(s)
+
+[English](./en-us/prompt.md)
+
+## Authors
+
+Solution|Author(s)
+--------|---------
+Nutriscan_AI | [Stevie Sims](https://github.com/steviesimsii) |
+
+## Minimal Path to Awesome
+
+* Copy the prompt
+* Paste prompt into the tool of your choice (AIBuilder Azure Open AI, Power Apps Copilot, etc)
+
+## Disclaimer
+
+**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+<img src="https://m365-visitor-stats.azurewebsites.net/powerplatform-prompts/samples/ai-builder/anagram-creator" aria-hidden="true" />
